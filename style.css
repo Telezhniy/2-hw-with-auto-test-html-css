@@ -11,7 +11,7 @@ body {
 header {
   /* Стили для хедера */
   background-color: #2965f1;
-  padding: 23px 0;
+  padding: 24px 0;
 }
 
 header span {
@@ -42,22 +42,36 @@ header span {
 
 .about-section {
   /* Стили для второй секции */
+  background-color: #ffffff;
+  padding: 100px 0;
 }
 
 select {
   /* Стили для выпадающего списка */
+  appearance: none;
+  border: 1px solid #3030304d;
+  padding: 8px 12px;
+  width: 150px;
+  background-image: url(./myImages/ep_arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: left 100% top 50%;
 }
 
 .section-title {
   /* Стили для заголовков во второй секции */
+  margin-bottom: 25px;
 }
 
 .frameworks-list {
   /* Стили для маркированного списка во второй секции */
+  padding-left: 24px;
+  list-style: none;
+  list-style-image: url(./myImages/solar_map-arrow-up-bold.svg);
 }
 
 .books-list {
   /* Стили для нумерованного списка во второй секции */
+  padding-left: 20px;
 }
 
 .label {
@@ -66,23 +80,37 @@ select {
 
 .text-field {
   /* Стили для односточного поля ввода текста */
+  width: 330px;
+  border: 1px solid #3030304d;
+  border-radius: 5px;
+  padding: 8px 0;
+  padding-left: 12px;
 }
 
 .btn {
   /* Стили для кнопки */
+  width: 125px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2965f1;
 }
 
 .line {
   /* Стили для линии */
+  margin: 60px 0;
 }
 
 table {
   /* Стили для таблицы */
+  border-collapse: collapse;
+  border: 1px solid #95a1bb;
 }
 
 th,
 td {
   /* Стили для ячеек таблицы */
+  padding: 12px 15px;
 }
 
 footer {
