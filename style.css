@@ -115,8 +115,17 @@ td {
 
 footer {
   /* Стили для футера */
+  background-color: #a3a7ff4d;
+  padding: 28px 0;
 }
 
 .footer-link {
   /* Стили для футера */
+  color: #2965f1;
+
+  text-decoration: none;
+}
+
+.footer-link:visited {
+  color: #551a8b;
 }
