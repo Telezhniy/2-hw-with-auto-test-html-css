@@ -6,6 +6,8 @@
 }
 
 body {
+  font-family: "Inter", sans-serif;
+  color: #303030;
 }
 
 header {
@@ -17,6 +19,10 @@ header {
 header span {
   /* Стили для текста в хедере IT-INCUBATOR */
   text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #ffffff;
 }
 
 .main-section {
@@ -29,10 +35,16 @@ header span {
 .main-title {
   /* Стили для заголовка в первой секции */
   margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
 }
 
 .main-text {
   /* Стили для текста в первой секции */
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
 }
 
 .main-image {
@@ -54,12 +66,18 @@ select {
   width: 150px;
   background-image: url(./myImages/ep_arrow-down.svg);
   background-repeat: no-repeat;
-  background-position: left 100% top 50%;
+  background-position: right 10px top 50%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
 }
 
 .section-title {
   /* Стили для заголовков во второй секции */
   margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
 }
 
 .frameworks-list {
@@ -67,15 +85,24 @@ select {
   padding-left: 24px;
   list-style: none;
   list-style-image: url(./myImages/solar_map-arrow-up-bold.svg);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
 }
 
 .books-list {
   /* Стили для нумерованного списка во второй секции */
   padding-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
 }
 
 .label {
   /* Стили для подписей чекбоксов */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
 }
 
 .text-field {
@@ -85,6 +112,11 @@ select {
   border-radius: 5px;
   padding: 8px 0;
   padding-left: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #303030;
+  opacity: 30%;
 }
 
 .btn {
@@ -94,11 +126,17 @@ select {
   border: none;
   border-radius: 5px;
   background-color: #2965f1;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: #ffffff;
 }
 
 .line {
   /* Стили для линии */
+
   margin: 60px 0;
+  border: 1px solid rgba(48, 48, 48, 0.3);
 }
 
 table {
@@ -111,6 +149,12 @@ th,
 td {
   /* Стили для ячеек таблицы */
   padding: 12px 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+}
+th {
+  font-weight: 700;
 }
 
 footer {
@@ -122,7 +166,9 @@ footer {
 .footer-link {
   /* Стили для футера */
   color: #2965f1;
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
   text-decoration: none;
 }
 
